@@ -1,0 +1,37 @@
+streamlit_code_task:
+  description: |
+    Create a complete Streamlit application with the following requirements:
+
+    1. **Page Structure:**
+       - A professional header section at the top of the page
+       - A footer section at the bottom of the page
+       - Main content area in between
+
+    2. **Functionality:**
+       - Accept transaction data (either through file upload or manual input)
+       - Analyze transactions to detect fraudulent activity
+       - Use OpenAI GPT-3.5-turbo (GPT mini) as the LLM to power the fraud detection analysis
+       - Display results showing which transactions are fraudulent and which are legitimate
+       - Provide clear visual indicators (colors, badges, etc.) to distinguish between fraudulent and legitimate transactions
+
+    3. **Technical Requirements:**
+       - Use Streamlit best practices
+       - Include proper error handling
+       - Add loading states for LLM API calls
+       - Make the UI modern and user-friendly
+       - Include data validation
+       - Support CSV file uploads for transaction data
+       - Display transaction data in a table format
+       - Show analysis results with explanations from the LLM
+
+    4. **Code Quality:**
+       - Well-commented code
+       - Modular structure
+       - Include environment variable configuration for API keys
+       - Add requirements.txt dependencies
+       - Follow Python PEP 8 standards
+
+    Generate the complete Streamlit application code as a single, runnable file. Include all necessary imports, configuration, and helper functions.
+  agent: "streamlit_code_agent"
+  expected_output: "A complete, production-ready Streamlit application code file that can be run directly. The code should be well-structured, commented, and include all necessary functionality for transaction fraud detection using OpenAI GPT-3.5-turbo."
+
